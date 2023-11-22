@@ -1,0 +1,63 @@
+body {
+      background-image: url(src/img.jpg);
+      /*background-position: center;*/
+      background-repeat: no-repeat;
+ }
+
+ h1 {
+     font-family: 'Specimen';
+     letter-spacing: 10px;
+ }
+
+ p {
+    font-size: 20px;
+    font-family: 'Caveat';
+ }
+
+ .btn {
+    background-color: #26313d;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+ }
+
+
+ .btn:hover {
+    background-color: #26313d;
+    width: 600px;
+    height: 100px;
+    color: rgb(180, 144, 97);
+ }
+
+ .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-130%, -40%); /* Centro el div en relación al 50% del ancho y alto del body */
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px; /* Agrego bordes redondeados */
+  }
+
+  .overlay .btn {
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(145%, -20%); /* Centro el div en relación al 50% del ancho y alto del body */
+    padding: 12px;
+    width: 200px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+  }
+  
+
+ .footer {
+   background-color: #26313d; 
+   color: rgb(180, 144, 97);
+   padding: 12px 0; 
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   border-top: 2px solid #f6f8fa; /
+ }
